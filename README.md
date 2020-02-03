@@ -6,12 +6,19 @@ A matlab implementation of the primal simplex algorithm for optimizing linear pr
 Consider having the linear program min{cx|Ax=b, x≥0} in a tableau of the form
 
   |----------------|---|
-  | costs/objective| 0 |
+
+  | costs c        | 0 |
+
   |----------------|---|
+
   |                |b1 |
+
   |                |b2 |
+
   |    Matrix A    |...|
+
   |                |bn |
+  
   |----------------|---|
 
 This needs to be transformed into the matrix T of the form

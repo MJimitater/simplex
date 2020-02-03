@@ -23,5 +23,5 @@ This needs to be transformed into the matrix T of the form
 in order for `mySimplex.m` to work.
 
 Its best to call the function as in `[endtableau, x_opt,z_opt]=mySimplex(T)`,
-in order to output not only the optimal solution _x_opt_ and its optimal objective value
-_z_opt_, but also the corresponding _endtableau_ of the simplex algorithm.
+in order to output not only the optimal solution `x_opt` and its optimal objective value
+`z_opt`, but also the corresponding `endtableau` of the simplex algorithm.

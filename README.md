@@ -3,27 +3,22 @@ A matlab implementation of the primal simplex algorithm for optimizing linear pr
 
 `mySimplex.m` contains code to run the simplex algorithm.
 
-Consider having the linear program min{cx|Ax=b, x≥0} in a tableau of the form
+Consider having the linear program `min{cx|Ax=b, x≥0}` in a tableau of the form
 
+```
   |----------------|---|
-
   | costs c        | 0 |
-
   |----------------|---|
-
   |                |b1 |
-
   |                |b2 |
-
   |    Matrix A    |...|
-
-  |                |bn |
-  
+  |                |bn |  
   |----------------|---|
+  ```
 
 This needs to be transformed into the matrix T of the form
 
-T = [Kostenzeile,0; MatrixA_Zeile1, b1; MatrixA_Zeile2,b2; ...;MatrixA_Zeilen,bn]
+`T = [c,0; MatrixA_row1, b1; MatrixA_row2,b2; ...;MatrixA_rown,bn]`
 
 in order for `mySimplex.m` to work.
 

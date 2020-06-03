@@ -4,7 +4,9 @@ A matlab implementation of the Primal Simplex algorithm for optimizing linear op
 `mySimplex.m` contains code to run the simplex algorithm.
 
 
-![ \min \{ cx | Ax=b, x \geq 0\} ](https://render.githubusercontent.com/render/math?math=%5Cpi)
+![ \min  ](https://render.githubusercontent.com/render/math?math=%5Cpi)
+
+\{ cx | Ax=b, x \geq 0\}
 
 Consider having the linear program <img src="https://render.githubusercontent.com/render/math?math=\min \{ cx | Ax=b, x \geq 0 \}">
 `min{cx|Ax=b, x≥0}` in a tableau of the form

@@ -5,20 +5,9 @@ A matlab implementation of the Primal Simplex algorithm for optimizing linear op
 
 Consider having the linear program ![\min \{ cx \, | \, Ax=b, x \geq 0\}](https://render.githubusercontent.com/render/math?math=%5Cmin%20%5C%7B%20cx%20%5C%2C%20%7C%20%5C%2C%20Ax%3Db%2C%20x%20%5Cgeq%200%5C%7D) in a tableau of the form
 
-| costs c | 0 |
-| :------:|:-:|
-| A       | b | 
-
-```
-  |----------------|---|
-  | costs c        | 0 |
-  |----------------|---|
-  |                |b1 |
-  |                |b2 |
-  |    Matrix A    |...|
-  |                |bn |  
-  |----------------|---|
-  ```
+| costs c  | 0 |
+| :-------:|:-:|
+| Matrix A | b | 
 
 This needs to be transformed into the matrix T of the form
 

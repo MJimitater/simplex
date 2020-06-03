@@ -11,7 +11,7 @@ Consider having the linear program ![\min \{ cx \, | \, Ax=b, x \geq 0\}](https:
 
 This needs to be transformed into the matrix T of the form
 
-`T = [c,0; MatrixA_row1, b1; MatrixA_row2,b2; ...;MatrixA_rown,bn]`
+![\begin{align*} T =      \begin{bmatrix}     c_1 & \ldots &  c_n  &  0 \\     A_{1,1} & \ldots & A_{1,n} & b_1\\     \vdots  & \vdots & \vdots & \vdots \\     A_{n,1} & \ldots & A_{n,n} & b_n\\     \end{bmatrix} \end{align*}](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign*%7D%20T%20%3D%20%20%20%20%20%20%5Cbegin%7Bbmatrix%7D%20%20%20%20%20c_1%20%26%20%5Cldots%20%26%20%20c_n%20%20%26%20%200%20%5C%5C%20%20%20%20%20A_%7B1%2C1%7D%20%26%20%5Cldots%20%26%20A_%7B1%2Cn%7D%20%26%20b_1%5C%5C%20%20%20%20%20%5Cvdots%20%20%26%20%5Cvdots%20%26%20%5Cvdots%20%26%20%5Cvdots%20%5C%5C%20%20%20%20%20A_%7Bn%2C1%7D%20%26%20%5Cldots%20%26%20A_%7Bn%2Cn%7D%20%26%20b_n%5C%5C%20%20%20%20%20%5Cend%7Bbmatrix%7D%20%5Cend%7Balign*%7D)
 
 in order for `mySimplex.m` to work.
 

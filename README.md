@@ -3,7 +3,9 @@ A matlab implementation of the Primal Simplex algorithm for optimizing linear op
 
 `mySimplex.m` contains code to run the simplex algorithm.
 
-Consider having the linear program <img src="https://render.githubusercontent.com/render/math?math= \min \{ cx | Ax=b, x \geq 0 \}">
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+Consider having the linear program <img src="https://render.githubusercontent.com/render/math?math=\min \{ cx | Ax=b, x \geq 0 \}">
 `min{cx|Ax=b, x≥0}` in a tableau of the form
 
 ```

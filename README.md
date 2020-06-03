@@ -1,5 +1,5 @@
 # Simplex
-A matlab implementation of the Primal Simplex algorithm for optimizing linear optimization programs
+A matlab implementation of the Primal Simplex algorithm for optimizing linear optimization programs.
 
 `mySimplex.m` contains code to run the simplex algorithm.
 

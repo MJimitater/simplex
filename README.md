@@ -5,7 +5,7 @@ A matlab implementation of the Primal Simplex algorithm for optimizing linear op
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
-![\pi](https://render.githubusercontent.com/render/math?math=%5Cpi)
+![\min \{ cx | Ax=b, x \geq 0 \}](https://render.githubusercontent.com/render/math?math=%5Cpi)
 
 Consider having the linear program <img src="https://render.githubusercontent.com/render/math?math=\min \{ cx | Ax=b, x \geq 0 \}">
 `min{cx|Ax=b, x≥0}` in a tableau of the form
